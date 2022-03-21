@@ -1,0 +1,263 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+    font-family: sans-serif;
+    background-color: black;
+    margin-top: 90px;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar {
+    
+    background-color: #B03A2E;
+    box-shadow: 0px 0px 5px white;
+    border-bottom: 1px solid #7B7D7D;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-around;
+    z-index: 1000;
+        
+}
+
+.menu-navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.bxs-store {
+    font-size: 80px;
+    color: white;
+}
+
+.nav-display {
+    
+    display: flex; 
+    flex-direction: row; 
+    padding: 1px; 
+    justify-content: space-around;
+    width: max-content;
+   
+}
+
+
+
+.box-navbar {
+
+font-size: 18px;
+margin: 0 60px;
+line-height: 80px;
+text-align: center;
+font-weight: bolder;
+padding: 0px 8px;
+width: max-content;
+
+
+}
+
+.label {
+    border: 1px solid;
+}
+
+#on-off {
+    display: none;
+}
+
+.cart {
+    color: white;
+}
+
+
+
+
+.cart-content {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+    flex-basis: auto;
+    overflow-y: auto;
+}
+
+.cart-body {
+    display: flex;
+    height: fit-content;
+    flex-direction: row;
+    gap: 80px;
+    width: auto;
+    flex-basis: 25%;
+}
+
+
+
+.hover-nbr {
+padding: 8px 12px;
+border-radius: 8px;
+}
+
+.hover-nbr:hover {
+background-color: #717D7E ;
+}
+
+#Products {
+    display: flex;
+    flex-direction: row;
+    gap: 80px; 
+    overflow-y: auto;
+    height: 500px;
+}
+
+.card-product {
+    width: 350px;
+    height: auto;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.tittle-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+h2 {
+    text-align: center;
+}
+
+li {
+    text-decoration: none;
+    list-style: circle;
+}
+
+.image-card {
+    display: flex;
+    width: 350px;
+    height: 197px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.bike-photo {
+    display: flex;
+    max-width: 350px;
+    max-height: 197px;
+    justify-content: center;
+}
+
+
+.btn-slot {
+    display: flex;
+    justify-content: right;
+}
+.btn {
+    justify-content: right;
+    border-radius: 3px;
+    padding: 2px;
+    margin-right: 20px;
+    color: white;
+    background-color: #1b65c5;
+    height: 30px;
+    width: 90px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #12488f;
+}
+
+.btn:active {
+    background-color: #08254b;
+}
+#About {
+    margin-top: 40px;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    gap: 50px;
+    height: 90px;
+    margin-bottom: 0px;
+    padding: 60px;
+
+}
+
+
+
+
+
+.sidebar>h2,
+.sidebar>p  {
+    color: white;
+}
+
+
+.src-image {
+    width: 90px;
+    height: 62px;
+    max-width: fit-content;
+    display: flex;
+    justify-content: right;
+}
+
+.cart1 {
+    height: auto;
+    width: auto;
+    border-radius: 8px;
+    margin-top: 80px;
+    background-color: whitesmoke;
+    display:  flex  ;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    transition: right  0.5s;
+    gap: 20px;
+    overflow-y: auto;
+
+}
+
+.quantity {
+    width: 30px;
+
+}
+
+.total-cart {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 90px;
+}
+
+.buy-button {
+    border: none;
+    background-color: #B03A2E;
+    width: 80px;
+    height: 30px;
+    border-radius: 8px;
+    color: whitesmoke;
+
+}
+
+.buy-button:hover {
+    background-color: #80261c;
+}
